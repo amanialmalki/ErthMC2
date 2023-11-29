@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		686159FF2B15C91900E440AC /* ErthMC2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686159FE2B15C91900E440AC /* ErthMC2App.swift */; };
-		68615A012B15C91900E440AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68615A002B15C91900E440AC /* ContentView.swift */; };
+		68615A012B15C91900E440AC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68615A002B15C91900E440AC /* MapView.swift */; };
 		68615A032B15C91900E440AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68615A022B15C91900E440AC /* Assets.xcassets */; };
 		68615A072B15C91900E440AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68615A062B15C91900E440AC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		686159FB2B15C91900E440AC /* ErthMC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErthMC2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686159FE2B15C91900E440AC /* ErthMC2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErthMC2App.swift; sourceTree = "<group>"; };
-		68615A002B15C91900E440AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68615A002B15C91900E440AC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		68615A022B15C91900E440AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68615A042B15C91900E440AC /* ErthMC2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ErthMC2.entitlements; sourceTree = "<group>"; };
 		68615A062B15C91900E440AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				686159FE2B15C91900E440AC /* ErthMC2App.swift */,
-				68615A002B15C91900E440AC /* ContentView.swift */,
+				68615A002B15C91900E440AC /* MapView.swift */,
 				68615A022B15C91900E440AC /* Assets.xcassets */,
 				68615A042B15C91900E440AC /* ErthMC2.entitlements */,
 				68615A052B15C91900E440AC /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68615A012B15C91900E440AC /* ContentView.swift in Sources */,
+				68615A012B15C91900E440AC /* MapView.swift in Sources */,
 				686159FF2B15C91900E440AC /* ErthMC2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
