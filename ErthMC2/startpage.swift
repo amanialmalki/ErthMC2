@@ -9,28 +9,31 @@ import SwiftUI
 
 struct startpage: View {
     var body: some View {
-        ZStack{
-            Color("Background")
-                .ignoresSafeArea()
-            VStack {
-                Image("صقر")
-                    .resizable()
-                    . frame(width: 200,height: 200)
-                    .foregroundColor(.green)
-                  
-                Button{
-                           } label: {
-                               Text("ابدا اللعب ")
-                                   .foregroundColor(.white)
-                                   .frame(width: 215, height: 69)
-                                   .background(Color.button)
-                                   .foregroundColor(.gray)
-                                   .cornerRadius(13)
-                               /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                           }
+        NavigationStack{
+            ZStack{
+                Color("Background")
+                    .ignoresSafeArea()
+                VStack {
+                    Image("صقر")
+                        .resizable()
+                        . frame(width: 200,height: 200)
+                        .foregroundColor(.green)
+                    NavigationLink {
+                        endgame()
+                    }
+            label: {
+                        Text("ابدا اللعب ")
+                            .foregroundColor(.white)
+                            .frame(width: 215, height: 69)
+                            .background(Color.button)
+                            .foregroundColor(.gray)
+                            .cornerRadius(13)
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    }
                 }
-            .padding(.bottom, 21.0)
-        }
+                .padding(.bottom, 21.0)
+            }
+        }//navigation stack
     }
     
 }
