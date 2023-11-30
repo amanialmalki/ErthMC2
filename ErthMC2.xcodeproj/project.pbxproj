@@ -11,6 +11,8 @@
 		68615A012B15C91900E440AC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68615A002B15C91900E440AC /* MapView.swift */; };
 		68615A032B15C91900E440AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68615A022B15C91900E440AC /* Assets.xcassets */; };
 		68615A072B15C91900E440AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68615A062B15C91900E440AC /* Preview Assets.xcassets */; };
+		861B14B32B186D5200AD1BC2 /* startpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B14B22B186D5200AD1BC2 /* startpage.swift */; };
+		861B14B52B186FB500AD1BC2 /* endgame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B14B42B186FB500AD1BC2 /* endgame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		68615A022B15C91900E440AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68615A042B15C91900E440AC /* ErthMC2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ErthMC2.entitlements; sourceTree = "<group>"; };
 		68615A062B15C91900E440AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		861B14B22B186D5200AD1BC2 /* startpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startpage.swift; sourceTree = "<group>"; };
+		861B14B42B186FB500AD1BC2 /* endgame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endgame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				68615A022B15C91900E440AC /* Assets.xcassets */,
 				68615A042B15C91900E440AC /* ErthMC2.entitlements */,
 				68615A052B15C91900E440AC /* Preview Content */,
+				861B14B22B186D5200AD1BC2 /* startpage.swift */,
+				861B14B42B186FB500AD1BC2 /* endgame.swift */,
 			);
 			path = ErthMC2;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				68615A012B15C91900E440AC /* MapView.swift in Sources */,
+				861B14B52B186FB500AD1BC2 /* endgame.swift in Sources */,
 				686159FF2B15C91900E440AC /* ErthMC2App.swift in Sources */,
+				861B14B32B186D5200AD1BC2 /* startpage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
