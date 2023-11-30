@@ -19,7 +19,7 @@ struct startpage: View {
                         . frame(width: 200,height: 200)
                         .foregroundColor(.green)
                     NavigationLink {
-                        endgame()
+                        firstround()
                     }
             label: {
                         Text("ابدا اللعب ")

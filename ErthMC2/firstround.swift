@@ -17,6 +17,7 @@ struct firstround: View {
     @State private var isAnswerCorrect = false
 
     var body: some View {
+        NavigationStack{
         ZStack {
             Color("Background")
                 .ignoresSafeArea()
@@ -76,6 +77,7 @@ struct firstround: View {
             .padding()
         }
     }
+ }
 
  
 }
