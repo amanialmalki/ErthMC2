@@ -4,9 +4,10 @@
 //
 //  Created by mnerah awn on 16/05/1445 AH.
 //
+
 import SwiftUI
 
-struct ContentView: View {
+struct startpage: View {
     var body: some View {
         ZStack{
             Color("Background")
@@ -33,7 +34,8 @@ struct ContentView: View {
     }
     
 }
-#Preview {
-    ContentView()
-}
 
+
+#Preview {
+    startpage()
+}
