@@ -11,7 +11,7 @@ import SwiftUI
 struct ErthMC2App: App {
     var body: some Scene {
         WindowGroup {
-            MapView()
+            SplashScreen()
         }
     }
 }
