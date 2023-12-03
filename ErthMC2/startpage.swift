@@ -28,7 +28,7 @@ struct startpage: View {
                             .background(Color.button)
                             .foregroundColor(.gray)
                             .cornerRadius(13)
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                        
                     }
                 }
                 .padding(.bottom, 21.0)
