@@ -51,7 +51,7 @@ struct finalround: View {
                     
                     ForEach(items, id: \.self) { item in
                         Button(action: {
-                            if item == "العرضه" {
+                            if item == "الدقله" {
                                 
                                 selectedOption = item
                                 correctAnswer = item
@@ -65,7 +65,7 @@ struct finalround: View {
                             } else {
                                 
                                 selectedOption = item
-                                correctAnswer = "العرضه"
+                                correctAnswer = "الدقله"
                                 isAnswerCorrect = false
                                 
                                 
@@ -83,6 +83,12 @@ struct finalround: View {
                                 .cornerRadius(13)
                         }
                     }
+                    if let correctAnswer = correctAnswer, !isAnswerCorrect, let selectedOption = selectedOption {
+                                        Text("الإجابة الصحيحة: \(correctAnswer)")
+                                            .foregroundColor(.button)
+                                            .padding()
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                    }
                 }
                 .padding()
             }

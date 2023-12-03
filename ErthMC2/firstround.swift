@@ -58,6 +58,12 @@ struct firstround: View {
                                 .cornerRadius(13)
                         }
                     }
+                    if let correctAnswer = correctAnswer, !isAnswerCorrect, let selectedOption = selectedOption {
+                                        Text("الإجابة الصحيحة: \(correctAnswer)")
+                                            .foregroundColor(.button)
+                                            .padding()
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                    }
                 }
                 .padding()
             }
