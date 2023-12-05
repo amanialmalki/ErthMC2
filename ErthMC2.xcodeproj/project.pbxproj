@@ -14,10 +14,10 @@
 		68BE3BCA2B1C5E20000E2E0C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BE3BC92B1C5E20000E2E0C /* SplashScreen.swift */; };
 		861B14B32B186D5200AD1BC2 /* startpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B14B22B186D5200AD1BC2 /* startpage.swift */; };
 		861B14B52B186FB500AD1BC2 /* endgame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B14B42B186FB500AD1BC2 /* endgame.swift */; };
-		861B14BB2B187A2700AD1BC2 /* firstround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B14BA2B187A2700AD1BC2 /* firstround.swift */; };
 		86F512902B1C543C00E35CA8 /* secondround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F5128F2B1C543C00E35CA8 /* secondround.swift */; };
 		86F512942B1C560600E35CA8 /* thirdround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F512932B1C560600E35CA8 /* thirdround.swift */; };
 		86F512962B1C57B600E35CA8 /* finalround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F512952B1C57B600E35CA8 /* finalround.swift */; };
+		89F163872B1F206200A50D73 /* screenb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F163862B1F206200A50D73 /* screenb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		68BE3BC92B1C5E20000E2E0C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		861B14B22B186D5200AD1BC2 /* startpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startpage.swift; sourceTree = "<group>"; };
 		861B14B42B186FB500AD1BC2 /* endgame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endgame.swift; sourceTree = "<group>"; };
-		861B14BA2B187A2700AD1BC2 /* firstround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstround.swift; sourceTree = "<group>"; };
 		86F5128F2B1C543C00E35CA8 /* secondround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondround.swift; sourceTree = "<group>"; };
 		86F512932B1C560600E35CA8 /* thirdround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdround.swift; sourceTree = "<group>"; };
 		86F512952B1C57B600E35CA8 /* finalround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalround.swift; sourceTree = "<group>"; };
+		89F163862B1F206200A50D73 /* screenb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +72,12 @@
 				68615A042B15C91900E440AC /* ErthMC2.entitlements */,
 				68615A052B15C91900E440AC /* Preview Content */,
 				861B14B22B186D5200AD1BC2 /* startpage.swift */,
-				861B14BA2B187A2700AD1BC2 /* firstround.swift */,
 				86F5128F2B1C543C00E35CA8 /* secondround.swift */,
 				86F512932B1C560600E35CA8 /* thirdround.swift */,
 				86F512952B1C57B600E35CA8 /* finalround.swift */,
 				861B14B42B186FB500AD1BC2 /* endgame.swift */,
 				68BE3BC92B1C5E20000E2E0C /* SplashScreen.swift */,
+				89F163862B1F206200A50D73 /* screenb.swift */,
 			);
 			path = ErthMC2;
 			sourceTree = "<group>";
@@ -163,12 +163,12 @@
 				68BE3BCA2B1C5E20000E2E0C /* SplashScreen.swift in Sources */,
 				86F512902B1C543C00E35CA8 /* secondround.swift in Sources */,
 				68615A012B15C91900E440AC /* MapView.swift in Sources */,
+				89F163872B1F206200A50D73 /* screenb.swift in Sources */,
 				861B14B52B186FB500AD1BC2 /* endgame.swift in Sources */,
 				86F512942B1C560600E35CA8 /* thirdround.swift in Sources */,
 				686159FF2B15C91900E440AC /* ErthMC2App.swift in Sources */,
 				86F512962B1C57B600E35CA8 /* finalround.swift in Sources */,
 				861B14B32B186D5200AD1BC2 /* startpage.swift in Sources */,
-				861B14BB2B187A2700AD1BC2 /* firstround.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +310,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -348,8 +348,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
