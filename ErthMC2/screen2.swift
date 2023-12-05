@@ -15,7 +15,7 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct screen2: View {
     @Environment(\.modelContext) private var modelContext
     
 func buttonPressed() {
@@ -27,7 +27,11 @@ var body: some View {
         //NavigationSplitView {
            
              ZStack{
-            
+                 Image("new")
+                     .resizable()
+                     .scaledToFill()
+                     .edgesIgnoringSafeArea(.all)
+                     .padding(.bottom,50 )
             
             
             
@@ -41,38 +45,39 @@ var body: some View {
                          .resizable()
                          .aspectRatio(contentMode: .fit)
                          .frame(width: 40, height: 40)
-                         .offset(x:150,y:-90)
+                         .offset(x:150,y:-30)
                      
                      
                      //صورة اللبس
                      Image("AA")
-                         .padding(.bottom,20)
+                         .padding(.bottom,10)
                      
                      
                      
                      
                      Text(" خمن الناقص في الصورة")
-                         .padding(.bottom, 40)
+                         .padding(.bottom, 400)
                          .font( .system(size: 30, weight: .black ,design: .serif))
                          .fontWeight(.bold)
                          .foregroundColor(Color(hue: 0.096, saturation: 0.586, brightness: 0.253, opacity: 1.0))
                          .italic()
                      //.font(.largeTitle)
                      
-                     
+                 }
                      // المقطع
                      Button (action:{
                          buttonPressed()
                      }) {
                          Image("المقطع") }
-                     
+                     .padding(.top, 100)
+                 
                      // كرته
                      Button (action:{
                          buttonPressed()
                      }) {
                          
                          Image("كرته") }
-                     
+                     .padding(.top, 250)
                      
                      
                      
@@ -81,6 +86,7 @@ var body: some View {
                          buttonPressed()
                      }) {
                          Image("الهامه") }
+                     .padding(.top, 400)
                      
                      
                      
@@ -91,16 +97,10 @@ var body: some View {
             
                         }
             }
-            }
-struct screenb_Previews: PreviewProvider {
+            
+struct screen2_Previews: PreviewProvider {
     static var previews: some View {
-        screenb_Previews()
-            .background(
-                Image("bg1")
-                    .resizable()
-                    .padding(.top, -20.0)
-.frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-                )
+     screen2()
     }
 }
 

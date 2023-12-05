@@ -14,12 +14,12 @@ struct startpage: View {
                 Color("Background")
                     .ignoresSafeArea()
                 VStack {
-                    Image("صقر")
+                    Image("البدايه")
                         .resizable()
-                        . frame(width: 200,height: 200)
+                        . frame(width: 300,height: 400)
                         .foregroundColor(.green)
                     NavigationLink {
-                        firstround()
+                        //firstround()
                     }
             label: {
                         Text("ابدا اللعب ")
@@ -31,7 +31,7 @@ struct startpage: View {
                         
                     }
                 }
-                .padding(.bottom, 21.0)
+                .padding(.bottom, 60)
             }
         }//navigation stack
     }
