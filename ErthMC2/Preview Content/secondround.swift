@@ -59,7 +59,7 @@ struct secondround: View {
                             } else {
                                 
                                 selectedOption = item
-                                correctAnswer = "جريش"
+                                correctAnswer = "جريش : من اشهر اطباق المنطقه الوسطى الشعبيه مكون من جريش القمح المطحون يطبخ بالماء واللبن، ويزين بالبصل."
                                 isAnswerCorrect = false
                                 
                                 
