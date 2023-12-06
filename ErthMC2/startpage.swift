@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct startpage: View {
+    @State private var navigationActive = false
     var body: some View {
-        NavigationStack{
+       
             ZStack{
                 Color("Background")
                     .ignoresSafeArea()
@@ -18,10 +19,11 @@ struct startpage: View {
                         .resizable()
                         . frame(width: 300,height: 400)
                         .foregroundColor(.green)
-                    NavigationLink {
-                        //firstround()
-                    }
-            label: {
+                    NavigationLink(
+                        destination: firstround(),
+                        isActive: $navigationActive
+                    )  {
+                    label: do {
                         Text("ابدا اللعب ")
                             .foregroundColor(.white)
                             .frame(width: 215, height: 69)
@@ -30,14 +32,13 @@ struct startpage: View {
                             .cornerRadius(13)
                         
                     }
+                    }
+                    .padding(.bottom, 60)
                 }
-                .padding(.bottom, 60)
             }
-        }//navigation stack
+      
     }
-    
 }
-
 
 #Preview {
     startpage()

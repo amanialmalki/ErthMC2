@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MapView: View {
     var body: some View {
-        NavigationStack{
+        
             ZStack {
                 Color("Background")
                     .edgesIgnoringSafeArea(.all)
@@ -25,7 +25,7 @@ struct MapView: View {
                         //
                         
                         NavigationLink {
-                            startpage()
+                            
                             
                         } label: {
                             Rectangle()
@@ -89,7 +89,7 @@ struct MapView: View {
             
         }
     }//end body
-}
+
 
 #Preview {
     MapView()

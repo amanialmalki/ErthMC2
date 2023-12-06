@@ -15,7 +15,7 @@ struct CamelView: View {
     @State private var navigationActive = false
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 Image("new")
                     .resizable()
@@ -23,11 +23,7 @@ struct CamelView: View {
                     .edgesIgnoringSafeArea(.all)
                     .padding(.bottom, 50)
                 
-                Image("poxpoint")
-                    .resizable()
-                    .frame(width: 40, height: 40)
-                    .padding(.bottom, 750.0 )
-                    .padding(.leading, 255.0)
+          
                 
                 Image("map")
                     .resizable()
@@ -57,7 +53,7 @@ struct CamelView: View {
                 
                 // Show NavigationLink conditionally
                 NavigationLink(
-                    destination: secondround(),
+                    destination: startpage(),
                     isActive: $navigationActive
                 ) {
                     EmptyView()
@@ -66,7 +62,7 @@ struct CamelView: View {
                 
                 .navigationBarTitle("", displayMode: .inline)
             }
-        }
+        }.accentColor(.button)
     }
         private func walkCamel() {
             guard isWalking else { return }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68485E2F2B205A050016CF25 /* Endgame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68485E2E2B205A050016CF25 /* Endgame.swift */; };
 		686159FF2B15C91900E440AC /* ErthMC2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686159FE2B15C91900E440AC /* ErthMC2App.swift */; };
 		68615A012B15C91900E440AC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68615A002B15C91900E440AC /* MapView.swift */; };
 		68615A032B15C91900E440AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68615A022B15C91900E440AC /* Assets.xcassets */; };
@@ -17,11 +18,12 @@
 		86F512902B1C543C00E35CA8 /* secondround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F5128F2B1C543C00E35CA8 /* secondround.swift */; };
 		86F512942B1C560600E35CA8 /* thirdround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F512932B1C560600E35CA8 /* thirdround.swift */; };
 		86F512962B1C57B600E35CA8 /* finalround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F512952B1C57B600E35CA8 /* finalround.swift */; };
-		89F163872B1F206200A50D73 /* screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F163862B1F206200A50D73 /* screen2.swift */; };
+		89F163872B1F206200A50D73 /* firstround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F163862B1F206200A50D73 /* firstround.swift */; };
 		972C9CE22B1F6B5A000FB81B /* CamelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C9CE12B1F6B5A000FB81B /* CamelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68485E2E2B205A050016CF25 /* Endgame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endgame.swift; sourceTree = "<group>"; };
 		686159FB2B15C91900E440AC /* ErthMC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErthMC2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686159FE2B15C91900E440AC /* ErthMC2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErthMC2App.swift; sourceTree = "<group>"; };
 		68615A002B15C91900E440AC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -34,7 +36,7 @@
 		86F5128F2B1C543C00E35CA8 /* secondround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondround.swift; sourceTree = "<group>"; };
 		86F512932B1C560600E35CA8 /* thirdround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdround.swift; sourceTree = "<group>"; };
 		86F512952B1C57B600E35CA8 /* finalround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalround.swift; sourceTree = "<group>"; };
-		89F163862B1F206200A50D73 /* screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen2.swift; sourceTree = "<group>"; };
+		89F163862B1F206200A50D73 /* firstround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstround.swift; sourceTree = "<group>"; };
 		972C9CE12B1F6B5A000FB81B /* CamelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,13 +75,14 @@
 				68615A042B15C91900E440AC /* ErthMC2.entitlements */,
 				68615A052B15C91900E440AC /* Preview Content */,
 				86F512952B1C57B600E35CA8 /* finalround.swift */,
+				89F163862B1F206200A50D73 /* firstround.swift */,
 				86F512932B1C560600E35CA8 /* thirdround.swift */,
-				89F163862B1F206200A50D73 /* screen2.swift */,
 				86F5128F2B1C543C00E35CA8 /* secondround.swift */,
 				972C9CE12B1F6B5A000FB81B /* CamelView.swift */,
 				68615A002B15C91900E440AC /* MapView.swift */,
 				68BE3BC92B1C5E20000E2E0C /* SplashScreen.swift */,
 				861B14B22B186D5200AD1BC2 /* startpage.swift */,
+				68485E2E2B205A050016CF25 /* Endgame.swift */,
 			);
 			path = ErthMC2;
 			sourceTree = "<group>";
@@ -166,9 +169,10 @@
 				68BE3BCA2B1C5E20000E2E0C /* SplashScreen.swift in Sources */,
 				86F512902B1C543C00E35CA8 /* secondround.swift in Sources */,
 				68615A012B15C91900E440AC /* MapView.swift in Sources */,
-				89F163872B1F206200A50D73 /* screen2.swift in Sources */,
+				89F163872B1F206200A50D73 /* firstround.swift in Sources */,
 				861B14B52B186FB500AD1BC2 /* endgame.swift in Sources */,
 				86F512942B1C560600E35CA8 /* thirdround.swift in Sources */,
+				68485E2F2B205A050016CF25 /* Endgame.swift in Sources */,
 				686159FF2B15C91900E440AC /* ErthMC2App.swift in Sources */,
 				972C9CE22B1F6B5A000FB81B /* CamelView.swift in Sources */,
 				86F512962B1C57B600E35CA8 /* finalround.swift in Sources */,
@@ -302,7 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ErthMC2/Preview Content\"";
-				DEVELOPMENT_TEAM = D52286Z8X4;
+				DEVELOPMENT_TEAM = H34956P8WF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -324,10 +328,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ADA.ErthMC2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -340,7 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ErthMC2/Preview Content\"";
-				DEVELOPMENT_TEAM = D52286Z8X4;
+				DEVELOPMENT_TEAM = H34956P8WF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -362,10 +367,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ADA.ErthMC2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

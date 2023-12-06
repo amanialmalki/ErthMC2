@@ -25,21 +25,20 @@ struct finalround: View {
 
     var body: some View {
         NavigationStack {
-            NavigationLink(destination: endgame(), isActive: $showNextView) {
-                EmptyView()
+            NavigationLink(destination: Endgame(), isActive: $showNextView) {
+               // EmptyView()
             }
             ZStack {
-                Color("Background")
+                Image("Background")
                     .ignoresSafeArea()
                 
                 VStack {
                     Image("Q4")
                         .resizable()
-                        .frame(width: 250, height: 250)
+                        .frame(width: 300, height: 300)
                         .padding(.bottom, 10)
                         .aspectRatio(contentMode: .fit)
-                    
-                    Spacer()
+                        .offset(y: -230)
                 }
                 
                 VStack(alignment: .center, spacing: 10) {
@@ -91,6 +90,10 @@ struct finalround: View {
                                     }
                 }
                 .padding()
+                Image("round4")
+                    .resizable()
+                    .frame(width: 250, height: 250)
+                    .padding(.bottom,750)
             }
         }//navigationStack
     }

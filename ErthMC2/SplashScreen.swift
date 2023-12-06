@@ -13,20 +13,20 @@ struct SplashScreen: View {
         @State private var opacity = 0.5
     var body: some View {
         if isActive {
-                  MapView()
+                  CamelView()
               }else {
        
                   ZStack{
-                      Color("Background")
+                      Image("erth0")
                           .ignoresSafeArea(.all)
                       
                       VStack{
                           //LOGO START HERE
-                          Image("صقر")
+                          Image("erth1")
                               .resizable()
                               .scaledToFit()
                               .offset(x:0,y:-30)
-                              .frame(width: 350,height: 480)
+                              .frame(width: 800,height: 850)
                       }
                       // animation starts here
                                      .scaleEffect(size)

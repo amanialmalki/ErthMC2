@@ -22,17 +22,18 @@ struct secondround: View {
                 EmptyView()
             }
             ZStack {
-                Color("Background")
+                Image("Background")
                     .ignoresSafeArea()
                 
                 VStack {
                     Image("Q2")
                         .resizable()
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .padding(.bottom, 10)
                         .aspectRatio(contentMode: .fit)
+                        .offset(y: -230)
                     
-                    Spacer()
+                    
                 }
                 
                 VStack(alignment: .center, spacing: 10) {
@@ -84,6 +85,11 @@ struct secondround: View {
                                     }
                 }
                 .padding()
+                Image("round2")
+                    .resizable()
+                    .frame(width: 250, height: 250)
+                    .padding(.bottom,750)
+                
                 
             }
         }//Navigationstack

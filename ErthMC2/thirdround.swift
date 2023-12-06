@@ -21,7 +21,7 @@ struct thirdround: View {
                 EmptyView()
             }
             ZStack {
-                Color("Background")
+                Image("Background")
                     .ignoresSafeArea()
                 
                 VStack {
@@ -30,8 +30,7 @@ struct thirdround: View {
                         .frame(width: 250, height: 250)
                         .padding(.bottom, 10)
                         .aspectRatio(contentMode: .fit)
-                    
-                    Spacer()
+                        .offset(y: -230)
                 }
                 
                 VStack(alignment: .center, spacing: 10) {
@@ -83,6 +82,10 @@ struct thirdround: View {
                                     }
                 }
                 .padding()
+                Image("round3")
+                    .resizable()
+                    .frame(width: 250, height: 250)
+                    .padding(.bottom,750)
             }
         }//navigationStack
     }
