@@ -14,11 +14,10 @@ struct startpage: View {
         ZStack {
             Color("Background")
                 .ignoresSafeArea()
-            
+            Image("البدايه")
+                .offset(x:27)
             VStack {
-                Image("البدايه")
-                    .offset(x: 27, y: 0)
-                
+                                
                 Button(action: {
                     navigationActive = true
                 }) {
@@ -28,7 +27,9 @@ struct startpage: View {
                         .background(Color.button)
                         .foregroundColor(.gray)
                         .cornerRadius(13)
-                }
+                        
+
+                }.offset(x:0,y:250)
                 .padding(.bottom, 60)
                 
                 NavigationLink(destination: firstround(), isActive: $navigationActive) {

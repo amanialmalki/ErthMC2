@@ -44,12 +44,16 @@ struct CamelView: View {
                         self.walkCamel()
                     }
                 }) {
-                    Image(isWalking ? "استكشف" : "استكشف") // Dynamic button label
-                        .padding(.top, 200)
-                        .foregroundColor(.black)
-                        .cornerRadius(8)
-                        .padding(.top, 20)
+                label: do {
+                    Text("استكشف ")
+                        .foregroundColor(.white)
+                        .frame(width: 150, height: 60)
+                        .background(Color.button)
+                        .foregroundColor(.gray)
+                        .cornerRadius(13)
+                    
                 }
+                }.offset(x:0,y:150)
                 
                 // Show NavigationLink conditionally
                 NavigationLink(
