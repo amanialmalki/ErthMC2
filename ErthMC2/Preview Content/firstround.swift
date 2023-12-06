@@ -59,7 +59,7 @@ struct firstround: View {
                             } else {
                                 
                                 selectedOption = item
-                                correctAnswer = "مقطع"
+                                correctAnswer = "مقطع:هو عبارة عن عن تطريز يكون في مقدمه الثوب من الاعلى ويتضمن زخارف نباتيه وهندسيه "
                                 isAnswerCorrect = false
                                 
                                 

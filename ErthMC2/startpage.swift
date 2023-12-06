@@ -16,9 +16,7 @@ struct startpage: View {
                     .ignoresSafeArea()
                 VStack {
                     Image("البدايه")
-                        .resizable()
-                        . frame(width: 300,height: 400)
-                        .foregroundColor(.green)
+                        .offset(x:27,y:0)
                     NavigationLink(
                         destination: firstround(),
                         isActive: $navigationActive
@@ -30,7 +28,7 @@ struct startpage: View {
                             .background(Color.button)
                             .foregroundColor(.gray)
                             .cornerRadius(13)
-                        
+                            .offset(x:0,y:-130)
                     }
                     }
                     .padding(.bottom, 60)

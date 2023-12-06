@@ -9,7 +9,7 @@ import SwiftUI
 
 struct endgame: View {
     var body: some View {
-        NavigationStack{
+       
             ZStack{
                 Color("Background")
                     .ignoresSafeArea()
@@ -34,7 +34,7 @@ struct endgame: View {
                 }
                 .padding(.bottom, -3.0)
             }
-        }
+      
     }
     
 }

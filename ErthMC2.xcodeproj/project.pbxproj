@@ -32,7 +32,7 @@
 		68615A062B15C91900E440AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68BE3BC92B1C5E20000E2E0C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		861B14B22B186D5200AD1BC2 /* startpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startpage.swift; sourceTree = "<group>"; };
-		861B14B42B186FB500AD1BC2 /* endgame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endgame.swift; sourceTree = "<group>"; };
+		861B14B42B186FB500AD1BC2 /* endgame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = endgame.swift; path = "Preview Content/endgame.swift"; sourceTree = "<group>"; };
 		86F5128F2B1C543C00E35CA8 /* secondround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondround.swift; sourceTree = "<group>"; };
 		86F512932B1C560600E35CA8 /* thirdround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdround.swift; sourceTree = "<group>"; };
 		86F512952B1C57B600E35CA8 /* finalround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalround.swift; sourceTree = "<group>"; };
@@ -75,13 +75,11 @@
 				68615A042B15C91900E440AC /* ErthMC2.entitlements */,
 				68615A052B15C91900E440AC /* Preview Content */,
 				86F512952B1C57B600E35CA8 /* finalround.swift */,
-				89F163862B1F206200A50D73 /* firstround.swift */,
-				86F512932B1C560600E35CA8 /* thirdround.swift */,
-				86F5128F2B1C543C00E35CA8 /* secondround.swift */,
 				972C9CE12B1F6B5A000FB81B /* CamelView.swift */,
 				68615A002B15C91900E440AC /* MapView.swift */,
 				68BE3BC92B1C5E20000E2E0C /* SplashScreen.swift */,
 				861B14B22B186D5200AD1BC2 /* startpage.swift */,
+				861B14B42B186FB500AD1BC2 /* endgame.swift */,
 				68485E2E2B205A050016CF25 /* Endgame.swift */,
 			);
 			path = ErthMC2;
@@ -91,7 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				68615A062B15C91900E440AC /* Preview Assets.xcassets */,
-				861B14B42B186FB500AD1BC2 /* endgame.swift */,
+				89F163862B1F206200A50D73 /* firstround.swift */,
+				86F5128F2B1C543C00E35CA8 /* secondround.swift */,
+				86F512932B1C560600E35CA8 /* thirdround.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -306,7 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ErthMC2/Preview Content\"";
-				DEVELOPMENT_TEAM = H34956P8WF;
+				DEVELOPMENT_TEAM = 9AH3A4M6HF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -345,7 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ErthMC2/Preview Content\"";
-				DEVELOPMENT_TEAM = H34956P8WF;
+				DEVELOPMENT_TEAM = 9AH3A4M6HF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

@@ -30,7 +30,7 @@ struct thirdround: View {
                         .frame(width: 250, height: 250)
                         .padding(.bottom, 10)
                         .aspectRatio(contentMode: .fit)
-                        .offset(y: -230)
+                        .offset(y: -240)
                 }
                 
                 VStack(alignment: .center, spacing: 10) {
@@ -56,7 +56,7 @@ struct thirdround: View {
                             } else {
                                 
                                 selectedOption = item
-                                correctAnswer = "العرضه"
+                                correctAnswer = "العرضه:هي رقصة تقليديه تتميز عن غيرها بانها يرقصها مجموعه يرتدون نفس الثياب ويرقصون بالسيوف"
                                 isAnswerCorrect = false
                                 
                                 

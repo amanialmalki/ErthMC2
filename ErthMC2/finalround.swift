@@ -16,7 +16,7 @@ import SwiftUI
 struct finalround: View {
     let title: String = "خمن الناقص من الصوره؟"
 
-    let items: [String] = ["الدقله", "المرودن", "الكرته"]
+    let items: [String] = ["الدقله", "المرودن", "المقطع"]
 
     @State private var selectedOption: String?
     @State private var correctAnswer: String?
@@ -38,7 +38,7 @@ struct finalround: View {
                         .frame(width: 300, height: 300)
                         .padding(.bottom, 10)
                         .aspectRatio(contentMode: .fit)
-                        .offset(y: -230)
+                        .offset(y: -240)
                 }
                 
                 VStack(alignment: .center, spacing: 10) {
@@ -64,7 +64,7 @@ struct finalround: View {
                             } else {
                                 
                                 selectedOption = item
-                                correctAnswer = "الدقله"
+                                correctAnswer = "الدقله: عبارة عن ثوب مطرز ويكون ذو قماش ثقيل ويلبس عادة فوق الثياب فالمناسبات "
                                 isAnswerCorrect = false
                                 
                                 
