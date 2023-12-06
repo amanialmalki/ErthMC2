@@ -10,31 +10,32 @@ import SwiftUI
 struct startpage: View {
     @State private var navigationActive = false
     var body: some View {
-       
-            ZStack{
-                Color("Background")
-                    .ignoresSafeArea()
-                VStack {
-                    Image("البدايه")
-                        .offset(x:27,y:0)
-                    NavigationLink(
-                        destination: firstround(),
-                        isActive: $navigationActive
-                    )  {
-                    label: do {
-                        Text("ابدا اللعب ")
-                            .foregroundColor(.white)
-                            .frame(width: 215, height: 69)
-                            .background(Color.button)
-                            .foregroundColor(.gray)
-                            .cornerRadius(13)
-                            .offset(x:0,y:-130)
-                    }
-                    }
-                    .padding(.bottom, 60)
+        
+        ZStack {
+            Color("Background")
+                .ignoresSafeArea()
+            
+            VStack {
+                Image("البدايه")
+                    .offset(x: 27, y: 0)
+                
+                Button(action: {
+                    navigationActive = true
+                }) {
+                    Text("ابدا اللعب ")
+                        .foregroundColor(.white)
+                        .frame(width: 215, height: 69)
+                        .background(Color.button)
+                        .foregroundColor(.gray)
+                        .cornerRadius(13)
+                }
+                .padding(.bottom, 60)
+                
+                NavigationLink(destination: firstround(), isActive: $navigationActive) {
+                    EmptyView()
                 }
             }
-      
+        }
     }
 }
 
